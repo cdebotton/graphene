@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+./src/
+
+[libs]
+./flow/lib/
+
+[options]
+module.system=haste
+munge_underscores=true
+suppress_type=$FlowIssue
+
+[version]
+0.16.0
